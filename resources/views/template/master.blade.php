@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/superfish.css">
     <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/modernizr-2.6.2.min.js"></script>
 
@@ -55,6 +56,7 @@
     <script src="js/superfish.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

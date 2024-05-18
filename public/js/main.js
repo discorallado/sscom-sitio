@@ -94,6 +94,36 @@
         $(window).stellar();
     };
 
+    // Slider
+    var slider = function () {
+        $('.slide-track').slick({
+            // autoplay: true,
+            // dots: false,
+            // infinite: true,
+            // slidesToShow: 5,
+            // slidesToScroll: 1,
+            // autoplay: true,
+            // autoplaySpeed: 250,
+            // centerMode: true,
+            // variableWidth: true,
+            prevArrow: '',
+            nextArrow: '',
+            // speed: 2000,
+            // autoplay: true,
+            // autoplaySpeed: 0,
+            // cssEase: 'linear',
+            // slidesToShow: 1,
+            // slidesToScroll: 1,
+            variableWidth: true,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 8000,
+            pauseOnHover: false,
+            cssEase: 'linear',
+        });
+    }
 
     // Offcanvas and cloning of the main menu
     var offcanvas = function () {
@@ -196,6 +226,7 @@
         mainMenu();
         offcanvas();
         // parallax();
+        slider();
         mobileMenuOutsideClick();
         contentWayPoint();
         sliderMain();

@@ -809,29 +809,26 @@ figure {
   padding: 7em 0;
 }
 
+.customer-slide {
+  margin-top: 30px;
+  background-color: whitesmoke !important;
+  /* padding: 1em 2em; */
+}
+
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
 .slide img {
-  width: auto;
-  height: auto;
-  animation: scroll 60s linear infinite;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
-.slide-track {
-  width: 100%;
-  display: flex;
-  gap: 3em;
-  overflow: hidden;
-}
-
-.slider {
-  margin-top: 70px;
-  background-color: whitesmoke;
-  padding: 1em 2em;
-}
-
-@keyframes scroll {
-  0% {transform: translateX(0);}
-  100% {transform: translatex(-1000%)}
-}
 
 .grid-project {
   margin-bottom: 40px;

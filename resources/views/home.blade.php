@@ -3,7 +3,7 @@
     <aside id="fh5co-hero" class="js-fullheight">
         <div class="flexslider js-fullheight">
             <ul class="slides">
-                <li style="background-image: url(images/img/a9.jpg);">
+                <li style="background-image: url(images/img/project-5.jpg);">
                     <div class="overlay-gradient"></div>
                     <div class="container">
                         <div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
@@ -82,7 +82,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="slider">
+                    <div class="customer-slide">
                         <div class="slide-track">
                             <div class="slide">
                                 <img src="images/img/clientes/1x/logo1.jpg" alt="">
